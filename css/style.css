@@ -6,8 +6,10 @@
     color: #FFFFFF;
     font-size: 14px;
 }
+.container-slide,
 .carousel{
-    width: 925px;
+    max-width: 1000px;
+    padding: 25px 15px;
 }
 .card{
     border: none;
@@ -58,8 +60,11 @@ footer h5{
     }
 }
 @media (max-width:420px){
-    .carousel img{
-        max-width: 600px;
+    .container-slide,
+    .carousel{
+        width: 380px !important;
+        padding: 25px 10px 10px 5px;
+    
     }
     .card{
         width: 24rem !important;
